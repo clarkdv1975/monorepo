@@ -689,6 +689,51 @@ export const MAINNET_PRODUCTION_INIT_CONFIG: InitConfig = {
         },
       },
     },
+    {
+      name: "KOL",
+      canonical: {
+        domain: "11111",
+        address: "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
+        decimals: 18,
+      },
+      representations: {
+        /// ETHEREUM
+        "6648936": {
+          local: "0xF0f14634971C43d872d1cF1785195C0Ce1000a9d",
+          adopted: "0xF0f14634971C43d872d1cF1785195C0Ce1000a9d",
+        },
+        /// ARBITRUM
+        "1634886255": {
+          local: "0xa8DBaf56aDE2Ba5F9f3EA2bD9F6915dB546080b4",
+          adopted: "0xa8DBaf56aDE2Ba5F9f3EA2bD9F6915dB546080b4",
+        },
+        /// BNB
+        "6450786": {
+          local: "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
+          adopted: "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
+        },
+        /// POLYGON
+        "1886350457": {
+          local: "0x7980DF1e95714F8bd305a83a1A91A3743441121C",
+          adopted: "0x7980DF1e95714F8bd305a83a1A91A3743441121C",
+        },
+        /// AVALANCHE
+        "1635148152": {
+          local: "0xdF093C334EfD8031Edb8497861c9819a15346673",
+          adopted: "0xdF093C334EfD8031Edb8497861c9819a15346673",
+        },
+        /// BASE
+        "1650553709": {
+          local: "0x5f791D180126871aE3174db38fcdd28800CcBd77",
+          adopted: "0x5f791D180126871aE3174db38fcdd28800CcBd77",
+        },
+        /// OPTIMISM
+        "1869640809": {
+          local: "0x5f791D180126871aE3174db38fcdd28800CcBd77",
+          adopted: "0x5f791D180126871aE3174db38fcdd28800CcBd77",
+        },
+      },
+    },
   ],
   agents: {
     relayerFeeVaults: {
