@@ -699,8 +699,8 @@ export const MAINNET_PRODUCTION_INIT_CONFIG: InitConfig = {
       representations: {
         /// ETHEREUM
         "6648936": {
-          local: "xxx",
-          adopted: "xxx",
+          local: "0xF0f14634971C43d872d1cF1785195C0Ce1000a9d",
+          adopted: "0xF0f14634971C43d872d1cF1785195C0Ce1000a9d",
         },
         /// ARBITRUM
         "1634886255": {
@@ -711,11 +711,6 @@ export const MAINNET_PRODUCTION_INIT_CONFIG: InitConfig = {
         "6450786": {
           local: "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
           adopted: "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
-        },
-        /// FANTOM
-        "xxxx": {
-          local: "0xc52a803a1f2f107b5794856ce93c61c4145a4f60",
-          adopted: "0xc52a803a1f2f107b5794856ce93c61c4145a4f60",
         },
         /// POLYGON
         "1886350457": {
